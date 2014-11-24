@@ -1,0 +1,80 @@
+<html>
+
+        <head>
+              <title>Formulare</title>
+              <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></meta>
+        </head>
+
+        <body>
+        
+			<font face="Arial,Helvetica">
+        
+			<p>
+            Was möchten Sie bestellen?:
+            </p>
+
+			<form action="mailto:f.deberle@juvo.de" method="post" enctype="text/plain" name="Formular">
+				
+				<select size="9" name="Pizza-Auswahl" multiple>
+				
+					<option value="P102"> Pizza Napoli
+					<option value="P102"> Pizza Funghi
+					<option value="P103"> Pizza Capriciosa
+					<option value="P104"> Pizza Vegetabile
+					<option value="P105"> Pizza Mexicana
+					<option value="P106"> Pizza Quatro Stagioni
+					<option value="P107"> Pizza de la Casa
+					<option value="P108"> Pizza Calzone
+					<option value="P109"> Pizza con tutti
+				
+				</select>
+				
+				<p><i>Mit dem Attribut "multiple" können Sie eine Mehrfachauswahl erlauben.</i></p>
+				
+				<p>Das gleiche mit size="5":</p>
+				
+				<select size="5" name="Pizza-Auswahl2" multiple>
+				
+					<option value="P102"> Pizza Napoli
+					<option value="P102"> Pizza Funghi
+					<option value="P103"> Pizza Capriciosa
+					<option value="P104"> Pizza Vegetabile
+					<option value="P105"> Pizza Mexicana
+					<option value="P106"> Pizza Quatro Stagioni
+					<option value="P107"> Pizza de la Casa
+					<option value="P108"> Pizza Calzone
+					<option value="P109"> Pizza con tutti
+				
+				</select>
+				
+				<p>Und nochmal mit size="1" <i>(aber ohne multiple!)</i>:</p>
+				
+				<select size="1" name="Pizza-Auswahl3">
+				
+					<option value="P102"> Pizza Napoli
+					<option value="P102"> Pizza Funghi
+					<option value="P103"> Pizza Capriciosa
+					<option value="P104"> Pizza Vegetabile
+					<option value="P105"> Pizza Mexicana
+					<option value="P106"> Pizza Quatro Stagioni
+					<option value="P107"> Pizza de la Casa
+					<option value="P108"> Pizza Calzone
+					<option value="P109"> Pizza con tutti
+				
+				</select>
+
+				<p>
+				<input type="submit" value="Ab die Post!">
+				</p>
+				
+				<p>
+				<input type="reset" value="Eingaben löschen">
+				</p>
+					
+			</form>
+
+			</font>
+
+        </body>
+
+</html>
